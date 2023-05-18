@@ -1,0 +1,48 @@
+.event-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.event-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.event-details {
+  margin-left: 20px;
+}
+
+.event-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.event-location,
+.event-date {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 5px;
+}
+
+.event-location i,
+.event-date i {
+  margin-right: 5px;
+}
+.events__row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

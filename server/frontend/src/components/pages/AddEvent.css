@@ -1,0 +1,9 @@
+form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-top: 20px;
+  text-align: center;
+}
