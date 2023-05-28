@@ -1,11 +1,10 @@
 import React from 'react';
 // import '../App.css';
-import './HeroSection.css';
-import { Link } from 'react-router-dom';
+import './HomeDashboard.css';
 
-function HeroSection() {
+function HomeDashboard() {
   return (
-    <div className='hero-container'>
+    <div className='homeDs-container'>
       <video src='/videos/video-1.mp4' autoPlay loop muted />
       
       <p>WE OFFER PROFESSIONAL</p>
@@ -14,4 +13,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default HomeDashboard;

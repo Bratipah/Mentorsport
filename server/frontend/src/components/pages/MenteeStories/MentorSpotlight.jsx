@@ -29,16 +29,12 @@ const MentorSpotlight = () => {
               location="Kenyatta university"
               text="My mentor, Kennedy Pendo, has been instrumental in my journey as a software engineering student. His deep knowledge and expertise in the field have greatly enhanced my learning experience. Kennedy has consistently provided valuable guidance, insightful feedback, and practical advice. He goes above and beyond to ensure I understand complex concepts and encourages me to explore innovative solutions. I am grateful for his dedication and mentorship, and I highly recommend Kennedy to anyone seeking guidance in software engineering."
               image={menteeOne}
+        
             />
           </Carousel>
         </div>
       </div>
       {/* the 3d flip cards */}
-      <FlipCard
-        image={menteeTwo}
-        title="my title"
-        role="senior frontend engineer"
-      />
 
       <div className="mentor">
         <div className="container">
@@ -47,25 +43,21 @@ const MentorSpotlight = () => {
               name="Mark "
               location="Multimedia univesity"
               text="My mentor, Joyce Njimu, has had a profound impact on my cybersecurity journey. Her expertise, dedication, and guidance have been instrumental in my professional growth. Joyce's deep knowledge of the field and her ability to explain complex concepts in a clear and concise manner have greatly enhanced my understanding of cybersecurity principles. She has provided me with valuable insights, practical advice, and real-world examples that have helped me navigate the challenges of the industry. Joyce's mentorship has not only improved my technical skills but also instilled in me a sense of confidence and determination. I am truly grateful for her unwavering support and I highly recommend Joyce as a mentor to anyone aspiring to excel in the field of cybersecurity."
-              image={mentee}
+              image={menteeTwo}
             />
 
             <Spotlight
               name="john Mabangu"
               location="UON"
               text=" Isaac has been an exceptional project management mentor. His expertise and guidance have significantly contributed to my professional growth. He simplifies complex concepts, offers timely feedback, and creates a supportive learning environment. I highly recommend Isaac as a mentor for anyone seeking project management guidance."
-              image={menteeThree}
+              image={mentee}
             />
           </Carousel>
         </div>
       </div>
 
       {/* the 3d flip cards */}
-      <FlipCard
-        image={mentee}
-        title="my title"
-        role="senior frontend engineer"
-      />
+
     </div>
   );
 };
