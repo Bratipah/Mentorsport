@@ -2,10 +2,8 @@ import React from "react";
 import Carousel from "react-elastic-carousel";
 import './bb.css'
 import Spotlight from "./Spotlight";
-import mentor1 from "../../../assets/Images/mentor1.jpeg";
 import mentor2 from "../../../assets/Images/mentor2.jpeg";
 import mentor3 from "../../../assets/Images/img2.jpg";
-import FlipCard from "./FlipCard";
 
 const MentorSpotlight = () => {
   return (

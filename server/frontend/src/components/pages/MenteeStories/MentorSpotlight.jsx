@@ -6,8 +6,6 @@ import mentee from "../../../assets/Images/mentee.jpeg";
 // import sampImg from "../../../assets/Images/mentee1.jpeg";
 import menteeOne from "../../../assets/Images/mentee1.jpeg";
 import menteeTwo from "../../../assets/Images/mentee2.jpeg";
-import menteeThree from "../../../assets/Images/mentee5.jpeg";
-import FlipCard from "./FlipCard";
 
 const MentorSpotlight = () => {
   return (
